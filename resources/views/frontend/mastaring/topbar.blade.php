@@ -2,9 +2,9 @@
 <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
     <div class="app-header header-shadow">
         <div class="app-header__logo">
-            {{-- <div class="logo-src"></div> --}}
+            <div class="logo-src"></div>
             
-                <img width="150" src="{{ asset('backend') }}/img/mamurjor_logo.png" alt="">
+                {{-- <img width="150" src="{{ asset('backend') }}/img/mamurjor_logo.png" alt=""> --}}
             
             <div class="header__pane ml-auto">
                 <div>
