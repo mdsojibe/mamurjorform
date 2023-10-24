@@ -36,7 +36,7 @@ class TodayWorkFormController extends Controller
     }
     public function edit($id){
         $data=TodayWorkForm::find($id);
-        return view('todayworkform.form',compact('data'));
+        return view('todayworkform.edit',compact('data'));
     }
     public function update(Request $request, $id){
         $data=TodayWorkForm::find($id);
